@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Tutorials</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-auth.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Web Development Tutorials</h1>
+    <nav>
+      <ul>
+        <li><a href="tutorials/html.html">HTML</a></li>
+        <li><a href="tutorials/css.html">CSS</a></li>
+        <li><a href="tutorials/js.html">JavaScript</a></li>
+        <li><a href="tutorials/java.html">Java</a></li>
+        <li><a href="tutorials/opencv.html">OpenCV</a></li>
+        <li><a href="tutorials/streamlit.html">Streamlit</a></li>
+      </ul>
+    </nav>
+    <input type="text" id="searchInput" placeholder="Search tutorials..." onkeyup="searchTutorials()">
+  </header>
+
+  <main>
+    <section>
+      <h2>Learn Web Development</h2>
+      <p>Welcome to the best place to learn web development. Here you can find tutorials on HTML, CSS, JavaScript, OpenCV, Streamlit, and more!</p>
+    </section>
+
+    <section>
+      <h3>Get Started</h3>
+      <ul>
+        <li><a href="tutorials/html.html">Learn HTML</a></li>
+        <li><a href="tutorials/css.html">Learn CSS</a></li>
+        <li><a href="tutorials/js.html">Learn JavaScript</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Web Dev Tutorials</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
